@@ -1,0 +1,26 @@
+<!--
+Author: Ranjithprabhu K
+Page Description: Dashboard page
+Date: 05 Jan 2016
+-->
+
+    <!-- Content Header (Page header) -->
+    <section class="content-header">
+        <h1>
+            {{plano.titulo}}
+
+        </h1>
+        <ol class="breadcrumb">
+            <li><a><i class="fa fa-dashboard"></i> Dashboard</a></li>
+            <li>Meus envios</li>
+            <li class="active">{{plano.titulo}}</li>
+        </ol>
+    </section>
+    <!-- Main content -->
+    <section class="content">
+    <div class="row">
+        <div style="padding:20px;" class="col">
+            <div ng-bind-html="data.cont"></div>
+        </div>
+    </div>
+    </section><!-- /.content -->

@@ -1,0 +1,17 @@
+{
+  "name": "latos",
+  "version": "1.0.0",
+  "description": "Angular Bootstrap Dashboard is a web dashboard application based on Bootstrap and AngularJS.  All components included in this dashboard template has been developed to bring all the potential of HTML5 and Bootstrap plus a set of new features (JS and CSS) ideal for your next dashboard admin theme or admin web app project.  Angular Bootstrap Dashboard can be used in any type of web applications dashboard.  Angular Bootstrap Dashboard uses ui-router for routing purposes.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server -a localhost -p 8000 -c-1 ."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "angular-ui-tinymce": "0.0.19",
+    "bower": "^1.8.4",
+    "http-server": "^0.11.1"
+  }
+}

@@ -1,0 +1,57 @@
+<!--
+Author: Ranjithprabhu K
+Page Description: Dashboard page
+Date: 05 Jan 2016
+-->
+
+    <!-- Content Header (Page header) -->
+    <section class="content-header">
+        <h1>
+            Novo plano de aprendizagem
+
+        </h1>
+        <ol class="breadcrumb">
+            <li><a><i class="fa fa-dashboard"></i> Dashboard</a></li>
+            <li class="active">Novo plano de aprendizagem</li>
+        </ol>
+    </section>
+    <!-- Main content -->
+    <section class="content">
+    <div class="row">
+        <div class="col">
+            <div class="panel panel-info" style="min-height:453px;">
+                <div class="panel-heading">
+                    Enviar um novo plano de aprendizagem
+                </div>
+                <div class="panel-body">
+                    <form data-ng-submit="vm.submitForm();" name="vm.contactForm">
+                        <md-content class="autoScroll">
+                            <md-input-container class="md-icon-float md-block">
+                                <label>Título</label>
+                                <input type="text" required name="name" data-ng-model="plano.titulo">
+                            </md-input-container>
+
+                            <md-input-container class="md-icon-float md-block">
+                                
+							    <select ng-model="plano.categoria" class="form-control" id="exampleFormControlSelect1">
+									<option value="" disabled selected>Categoria</option>
+									<option value="empreendedorismo">Empreendedorismo</option>
+									<option value="tga">TGA</option>
+									<option value="estatistica">Estatística</option>
+									<option value="pesquisa">Pesquisa de mercado</option>
+							    </select>
+                            </md-input-container>
+
+							<textarea ui-tinymce="tinymceOptions" ng-model="plano.conteudo"></textarea>
+
+                            <div class="pull-right">
+                                <md-button ng-click="send()" class="md-raised md-primary">Enviar <i class="fa fa-angle-double-right"></i></md-button>
+                            </div>							
+                        
+                        </md-content>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section><!-- /.content -->
