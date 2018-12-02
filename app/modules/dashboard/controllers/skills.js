@@ -69,18 +69,6 @@ function ($rootScope, $scope, $state, $location, dashboardService, Flash) {
     //Design Stack
     vm.skills.design = [
         {
-            Software: "HTML 5",
-            Percentage: "90",
-            theme: "yellow",
-            image: "html5"
-        },
-        {
-            Software: "CSS 3",
-            Percentage: "83",
-            theme: "aqua",
-            image: "css3"
-        },
-        {
             Software: "SAAS",
             Percentage: "72",
             theme: "green",

@@ -23,18 +23,6 @@ function ($rootScope, $scope, $state, $location, dashboardService, Flash) {
           url:"fp360.us:830",
           roles: [
               {
-                  theme: "success",
-                  myRole:"UI Design"
-              },
-              {
-                  theme: "info",
-                  myRole: "UI Development"
-              },
-              {
-                  theme: "warning",
-                  myRole: "Service Integration"
-              },
-              {
                   theme: "red",
                   myRole: "UX Consultant"
               }
