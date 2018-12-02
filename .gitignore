@@ -3,6 +3,7 @@ logs/*
 node_modules/
 bower_components/
 js/
+plugins/
 app/lib/
 tmp
 .DS_Store
