@@ -1,5 +1,5 @@
-dashboard.controller("ViewController", ['$sce', '$stateParams', '$http', '$rootScope', '$scope', '$state', '$location', 'dashboardService', 'Flash',
-function ($sce, $stateParams, $http, $rootScope, $scope, $state, $location, dashboardService, Flash) {
+dashboard.controller("ViewController", ['$sce', '$stateParams', '$http', '$rootScope', '$scope', '$state', '$location',  'Flash',
+function ($sce, $stateParams, $http, $rootScope, $scope, $state, $location,  Flash) {
     
     var vm = this;
 

@@ -1,5 +1,5 @@
-dashboard.controller("MyContentController", ['$http', '$rootScope', '$scope', '$state', '$location', 'dashboardService', 'Flash',
-function ($http, $rootScope, $scope, $state, $location, dashboardService, Flash) {
+dashboard.controller("MyContentController", ['$http', '$rootScope', '$scope', '$state', '$location',  'Flash',
+function ($http, $rootScope, $scope, $state, $location,  Flash) {
     var vm = this;
 
 }]);

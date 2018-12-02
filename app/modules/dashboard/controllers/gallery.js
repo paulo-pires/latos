@@ -8,8 +8,8 @@
 
  ===========================================================*/
 
-dashboard.controller("GalleryController", ['$rootScope', '$scope', '$state', '$location', 'dashboardService', 'Flash',
-function ($rootScope, $scope, $state, $location, dashboardService, Flash) {
+dashboard.controller("GalleryController", ['$rootScope', '$scope', '$state', '$location',  'Flash',
+function ($rootScope, $scope, $state, $location,  Flash) {
     var vm = this;
 
     console.log("coming to Gallery controller");

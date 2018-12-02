@@ -8,8 +8,8 @@
 
  ===========================================================*/
 
-dashboard.controller("ContactController", ['$rootScope', '$scope', '$state', '$location', 'dashboardService', 'Flash', '$http',
-function ($rootScope, $scope, $state, $location, dashboardService, Flash, $http) {
+dashboard.controller("ContactController", ['$rootScope', '$scope', '$state', '$location', 'Flash', '$http',
+function ($rootScope, $scope, $state, $location, Flash, $http) {
     var vm = this;
 
     vm.message = {};
